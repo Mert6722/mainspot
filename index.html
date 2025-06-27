@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mainspot Discord – Deine Community</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(180deg, #f0f4ff 0%, #e3eaff 100%);
+    color: #1a1a1a;
+    scroll-behavior: smooth;
+  }
+
+  header {
+    background: #0d3b66;
+    color: white;
+    padding: 80px 20px 60px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.3em;
+    font-weight: 700;
+  }
+
+  header p {
+    font-size: 1.3rem;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-weight: 400;
+    color: #c0d6f9;
+  }
+
+  .btn-join {
+    background: linear-gradient(135deg, #ff5f6d, #ffc371);
+    padding: 18px 48px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(255,95,109,0.6);
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+
+  .btn-join:hover {
+    background: linear-gradient(135deg, #ff3a4b, #ffb347);
+    box-shadow: 0 12px 30px rgba(255,58,75,0.8);
+  }
+
+  main {
+    max-width: 900px;
+    margin: 60px auto 120px;
+    padding: 0 20px;
+  }
+
+  section {
+    margin-bottom: 80px;
+  }
+
+  section h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #0d3b66;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  section p {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #333;
+  }
+
+  .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .image-row img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+  }
+
+  .image-row img:hover {
+    transform: scale(1.05);
+  }
+
+  /* Rollen & Farben */
+
+  .roles {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .role {
+    background: white;
+    padding: 25px 35px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 250px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .role:hover {
+    box-shadow: 0 8px 25px rgba(255, 111, 0, 0.6);
+  }
+
+  .role h3 {
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .role p {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  /* Magische Farben */
+
+  .colors {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+  }
+
+  .color-circle {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+    cursor: default;
+  }
+
+  .color-circle:hover {
+    box-shadow: 0 0 25px 5px currentColor;
+  }
+
+  .color-orange {
+    background: #ff6f00;
+    color: #ff6f00;
+  }
+
+  .color-blue {
+    background: #0066ff;
+    color: #0066ff;
+  }
+
+  .color-purple {
+    background: #9b59b6;
+    color: #9b59b6;
+  }
+
+  .color-green {
+    background: #2ecc71;
+    color: #2ecc71;
+  }
+
+  footer {
+    background: #0d3b66;
+    color: #c0d6f9;
+    text-align: center;
+    padding: 25px 15px;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 700px) {
+    header h1 {
+      font-size: 2.4rem;
+    }
+
+    section h2 {
+      font-size: 2rem;
+    }
+
+    .image-row img {
+      width: 100%;
+      max-width: 320px;
+      height: 180px;
+    }
+
+    .roles {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Willkommen bei Mainspot Discord</h1>
+  <p>Deine Community zum Spaßhaben, Quatschen und mit magischen Rollen und Farben glänzen!</p>
+  <a href="https://discord.gg/mainspot" target="_blank" rel="noopener noreferrer" class="btn-join" aria-label="Mainspot Discord Server beitreten">Jetzt Discord beitreten</a>
+</header>
+
+<main>
+  <section>
+    <h2>Warum Mainspot? 😄🎉</h2>
+    <p>Bei uns findest du nicht nur freundliche Leute, sondern auch eine lebendige Community voller Spaß und Action. Lache gemeinsam in den Voice-Channels, erlebe spannende Events und entdecke deine neue Lieblings-Community.</p>
+    <div class="image-row">
+      <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80" alt="Fröhliche Gruppe Leute lacht zusammen" />
+      <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80" alt="Menschen genießen Spaß zusammen" />
+      <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?auto=format&fit=crop&w=800&q=80" alt="Freunde die lachen und Spaß haben" />
+    </div>
+  </section>
+
+  <section>
+    <h2>Unsere magischen Rollen & Farben ✨</h2>
+    <p>Hol dir eine von unseren einzigartigen Rollen – komplett gratis! Jede Rolle bringt eine eigene, magische Farbe mit, die deinen Namen im Chat zum Strahlen bringt.</p>
+    <div class="roles">
+      <div class="role">
+        <h3>Feuerlord 🔥</h3>
+        <p>Strahle in leuchtendem Orange und genieße exklusive Chat-Emojis.</p>
+        <div class="colors">
+          <div class="color-circle color-orange" title="Feuerlord Orange"></div>
+        </div>
+      </div>
+      <div class="role">
+        <h3>Meereszauberer 🌊</h3>
+        <p>Zeige deine blaue Magie mit dem coolen Meereszauberer-Tag.</p>
+        <div class="colors">
+          <div class="color-circle color-blue" title="Meereszauberer Blau"></div>
+        </div>
+      </div>
+      <div class="role">
+        <h3>Sternenmagier ✨</h3>
+        <p>Funkle in mystischem Lila und werde Teil der Elitetruppe.</p>
+        <div class="colors">
+          <div class="color-circle color-purple" title="Sternenmagier Lila"></div>
+        </div>
+      </div>
+      <div class="role">
+        <h3>Waldhüter 🍃</h3>
+        <p>Verbinde dich mit der Natur in strahlendem Grün.</p>
+        <div class="colors">
+          <div class="color-circle color-green" title="Waldhüter Grün"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Ready to join? 🚀</h2>
+    <p>Klick auf den Button und werde Teil von Mainspot Discord. Wir freuen uns auf dich!</p>
+    <div style="text-align:center;">
+      <a href="https://discord.gg/mainspot" target="_blank" rel="noopener noreferrer" class="btn-join" aria-label="Mainspot Discord Server beitreten">Jetzt beitreten</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Mainspot Discord – Deine Community für Spaß & Magie
+</footer>
+</body>
+</html>
